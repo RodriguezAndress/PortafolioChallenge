@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonte del Proyecto Raleway -->
+<link href="https://fonts.googleapis.com/css2?family=Michroma&family=Philosopher&display=swap" rel="stylesheet">
+
+    <title> Mi Portafolio</title>
+</head>
+<body>
+    <!-- Sección del Menú  -->
+    <!--<div class="tudo"> -->
+    <section class="menu">
+        <header class="menu__header">       
+        <nav>
+            <ul class="menu__list">
+                <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
+                <li class="menu__list__item"><a href="#skills">Skills</a></li>
+                <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
+                <li class="menu__list__item"><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    </section>
+    <!-- Sección sobre mi -->
+    <section class="about">
+        <div class="about__container">
+            <p class="about__paragraph"> Hola, soy <em>Andrés Rodriguez,</em> y hoy por hoy sigo buscando lo que me apasiona, trabajando y preparandome cada día.<br>
+                                        Actualmente me estoy formando como desarrollador junior junto a Alura y Oracle en su programa One Next Education,  
+                                        ademas <br> de apoyarme en otros recursos disponibles en la web para ejecutar mi trabajo lo mejor posible.</p>
+        </div>
+    </section>
+
+    <!-- Sección de Skills -->
+    <section class="skills" id="skills">
+        <h3 class="skills__title">Skills</h3>
+            <div class="skills__line">
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"><img src="./imagenes/html.png"></li>
+                        <li class="skills__name"> HTML 5</li>
+                    </ul>
+                </div>
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"> <img src="./imagenes/css.png" alt="Icono Css"> </li>
+                        <li class="skills__name">CSS</li>
+                    </ul>
+                </div>
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"> <img src="./imagenes/js.png" alt="Icono JavaScript"></li>
+                        <li class="skills__name">Javascript</li>
+                    </ul>
+                </div>
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"> <img src="./imagenes/py.png" alt="Icono Phyton"> </li>
+                        <li class="skills__name">Phyton</li>
+                    </ul>
+                </div>
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"> <img src="./imagenes/gh.png" alt="Icono Github"> </li>
+                        <li class="skills__name">Github</li>
+                    </ul>
+                </div>
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"> <img src="./imagenes/trello.png" alt="Icono Trello"> </li>
+                        <li class="skills__name">Trello</li>
+                    </ul>
+                </div>
+        </div>
+    </section>
+
+    <!-- Sección de Experiencia Profesional/Proyectos-->
+    <section class="experience" id="xp">
+        <h2 class="experience__section__title" >Experiencia Profesional</h2>
+        <div class="experiencie__box">
+            <img class="experience__img" src="./imagenes/encriptador.png">
+            <div class="experience__info">
+                <h2 class="experience__title">Encriptador de texto</h2>
+                            <span class="experience__repo"><a href="https://github.com/RodriguezAndress/Encriptador-de-Mensajes" target="_blank"><button class="experiencia__botao--repo">Repositório</button></a></span>
+                            <span class="experience__demo"><a href="https://rodriguezandress.github.io/Encriptador-de-Mensajes/" target="_blank"><button class="experience__botao--demo">Ver demo</button></a></span>
+            </div>        
+            
+
+        <!--div class="experiencie__box"-->
+            <img class="experience__img" src="./imagenes/ahorcado.png">
+            <div class="experience__info">
+                <h2 class="experience__title">Juego creado con HTML y JavaScript</h2>
+                            <span class="experience__repo"><a href="https://github.com/RodriguezAndress/Juego-del-Ahorcado" target="_blank"><button class="experiencia__botao--repo">Repositório</button></a></span>
+                            <span class="experience__demo"><a href="https://rodriguezandress.github.io/Juego-del-Ahorcado/" target="_blank"><button class="experience__botao--demo">Ver demo</button></a></span>
+                    </div>
+            
+        </div>  
+    </section>       
+
+        <!-- Sección de Contacto -->
+        <section class="formcontato" id="contacto">
+            <div  class="formcontato__contacto">
+                <div class="formcontato--esquerda">
+                    <img class="formcontato__img" src="./imagenes/contacto.png">
+                </div>
+                <div class="formcontato__text">
+                    <h2 class="formcontato__title">Contacto</h2>
+                    <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
+                    <h3 class="formcontato__subtext">Complete el siguiente formulario y me<br> pondré en contacto con usted lo antes posible. </h3>
+                    <form class="formcontato__form" name="form">
+                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
+                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
+                        <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
+                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
+                        <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Footer -->
+        <section class="footer">
+            <div class="footer__rodape">
+                <p>Desarrollado por Andrés S Rodriguez</p>
+                <p>2022</p>
+            </div>
+        </section>
+    </div>
+ <!-- Script del documento JavaScript -->
+<script src="validacion.js"></script>
+</body>
+</html>
