@@ -112,29 +112,42 @@ p {
     font-family: 'michroma';
     font-size: 18px;
 }
+
 #contacto{
     background-color: #817fb1;
     height: 30rem;
+    display: grid;
+    
+}
+.caja{
+    text-align: center;
+    margin: 25px;
+    margin-right: 9rem;
+    margin-top: -9rem;
+    float: right;
+    
 }
 .formcontato__img{
     position: relative;
-    display: inline-flex;
+  display: inline-flex;
     width: 10rem;
     height: 10rem;
     margin-right: 4rem;
-    margin-left: 8rem;
-    margin-top: 5rem;
-    transition: 450ms;
+    margin-left: 40rem;
+    margin-top: 2rem;
 }
 .formcontato__text{
 
-    margin-left: 6rem;
+    margin-left: -51rem;
     margin-top: 1rem;
     font-family: 'michroma';
     font-size: 15px;
+    text-align: end;
+
 }
+
 .formcontato__title{
-    display: block;
+    display: inline;
     font-size: 28px;
     margin-top: -25px;
     margin-bottom: 20px;
@@ -142,127 +155,35 @@ p {
     text-align: center;
 }
 .formcontato--esquerda{
-    display: contents;
+    display: inline;
 }
 .formcontato__text{
-    display: inline-block;
+    display: inline;
     position: absolute;
     margin-top: 5rem;
 }
 .formcontato__form{
-    display: table-caption;
+    display: inline-block;
+    position: relative;
+    margin-left: 7rem;
+    margin-right: 19rem;
+    margin-top: -10rem;
+
 }
 .formcontato__input{
     border-color: darkgrey;
-    border-radius: 7px;
+    border-radius: 9px;
+    padding: 7px;
+    margin-bottom: 3px;
 }
 .formcontato__textarea{
     border-color: darkgrey;
     border-radius: 7px;
+    padding: 8px;
 }
 .formcontato__botao{
     border-color: darkgrey;
-    border-radius: 7px;
+    border-radius: 12px;
 }
 .formcontato__botao:hover{
-    font-size: 11px;
-/*.experience__section__title{
-    display: grid;   
-    justify-items:center;
-    font-size: 28px;
-    margin-top: 80px;
-    margin-bottom: 60px;
-}
-.experiencie__box{
-    display: grid;
-    grid-template-areas: 
-    "box1"
-    "box2";
-    grid-template-columns: auto;
-    grid-template-rows: 40% 40% 40% 40%;
-}
-.experiencie__box{
-    grid-template-columns: 30%;
-    grid-template-rows: 45%;
-    height: 30%;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-/**:root{
-    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
-    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-/*   --cor-de-fundo: #F5F5F5;
-   --cor-de-link: #000;
-}
-
-body {
-    box-sizing: border-box;
-    background-color: var(--cor-de-fundo) ;
-    font-family: 'Raleway';
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-}
-/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
-Lo que es el BEM?
-BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
-desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
-independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
-con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
-Enlace de la documentación oficial!
-https://en.bem.info/methodology/quick-start/*/
-
-
-/* Vamos a desafiarnos trabajando con responsividad?
-Utiliza las referencias de los breakpoints @media abajo */
-
-
-/*Tablet*/
-@media (min-width: 768px) {
-
-/* Menú */
-
-/*title*/
-
-/*Skills*/
-
-/*Hobbies*/
-
-/*Formación Académica*/
-
-/*Experiencia Profesional*/
-
-}
-
-/*Mobile*/
-@media (min-width: 425px) {
-
-/*Menu*/
-
-/*Titulo*/
-
-/*Sección sobre mi*/
-
-/*Skills*/
-
-/*Hobbies*/
-
-/*Formación Académica*/
-
-/*Experiencia Profesional*/
-
- /*Contacto*/
-
-/*Footer*/
-
-}
+    font-size: 16px; }
